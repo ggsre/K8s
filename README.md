@@ -40,3 +40,27 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml  
 Run the join command on all nodes  
 kubectl get nodes  
+ 
+### Pods running on Master 
+- coredns
+- etcd
+- kube-apiserver
+- kube-controller-manager 
+- kube-flannel 
+- kube-proxy 
+- kube-scheduler 
+
+### Pods running on nodes 
+- kube-flannel 
+- kube-proxy
+
+### Components of Master and Nodes 
+Master 
+- Etcd 
+- API Server 
+- Controller Manager (Node Controller, Replication Controller, Endpoints Controller, Service Accounts & Token Controller) 
+Nodes
+- Proxy 
+- Kubelet 
+- Container Runtime 
+

@@ -58,7 +58,8 @@ kubectl get nodes
 Master 
 - Etcd 
 - API Server 
-- Controller Manager (Node Controller, Replication Controller, Endpoints Controller, Service Accounts & Token Controller) 
+- Controller Manager (Node Controller, Replication Controller, Endpoints Controller, Service Accounts & Token Controller)  
+
 Nodes
 - Proxy 
 - Kubelet 

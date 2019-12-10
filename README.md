@@ -1,4 +1,4 @@
-### Docker vs K8s  
+#### Docker vs K8s 
 Docker  
 - Containers can Node1 cannot communicate with containers on Node2
 - All containers on a node share the host IP space & must coordinate which ports they use on that node  
